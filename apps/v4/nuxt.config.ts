@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     defaults: {
       weights: [400, 500, 600, 700],
     },
+    provider: 'none',
   },
   content: {
     build: {
